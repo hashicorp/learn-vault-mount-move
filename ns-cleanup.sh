@@ -20,3 +20,6 @@ echo ""
 echo "Delete 'education' namespace"
 vault namespace delete education 
 
+echo ""
+echo "Delete created files"
+rm *.txt *.json
