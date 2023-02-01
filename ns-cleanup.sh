@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 echo "Delete 'education/training/security-edu/vault-edu' namespace"
 vault namespace delete -namespace=education/training/security-edu vault-edu
 
